@@ -1,7 +1,8 @@
-// Print 0 to 100 in reverse
-for (let i = 100; i >= 0; i--) {
-  console.log(i)
-}
+// Print 0 to 100 in reverse/* 
+
+// for (let i = 100; i >= 0; i--) {
+//   console.log(i)
+// }
 
 /* 
 * Write a loop from i to 100
@@ -9,11 +10,10 @@ for (let i = 100; i >= 0; i--) {
  */
 
 let sum = 0;
-
 for (let i = 0; i <= 100; i++) {
-  if (sum === 500) {
+  sum += i;
+  if (sum >= 500) {
     break;
   }
-  sum += i;
-  console.log(sum);
 }
+console.log(sum);
