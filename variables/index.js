@@ -28,4 +28,16 @@ name1 = "Gaurav"
 
 var studentMarks = 24
 
-console.log(studentMarks)
+//console.log(studentMarks)
+
+
+const n1 = "5"
+const n2 = 5
+
+/**
+ * == -> No strict Type check, performs equality by converting type if necessary 
+ * === -> Strick type check and value check
+ */
+
+console.log("n1 == n2 : " + (n1 == n2))
+console.log("n1 === n2 : " + (n1 === n2))
